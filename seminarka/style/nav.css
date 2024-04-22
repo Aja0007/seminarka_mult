@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&display=swap");
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+nav ul li {
+  float: left;
+  position: relative;
+  background-color: #173d4d;
+  width: 25%;
+}
+nav ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(229, 229, 229);
+  padding: 5%;
+}
+nav ul li:hover {
+  background-color: #d9dc20;
+  color: #35667e;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #0b1e26;
+  width: 100%;
+}
+nav ul ul li {
+  float: none;
+  width: 100%;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul li a {
+  text-decoration: none;
+  display: block;
+  padding: auto;
+}
+nav ul ul li a:hover {
+  background-color: #0b1e26;
+}/*# sourceMappingURL=nav.css.map */
