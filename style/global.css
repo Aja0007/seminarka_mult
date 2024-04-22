@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans Runic";
+  background-color: #b4dff1;
+}
+
+main {
+  color: #35667e;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 15%;
+  font-size: 400%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 200%;
+  margin: 2%;
+  text-align: left;
+}
+
+p {
+  margin: 2%;
+  font-size: 100%;
+  text-align: left;
+}
+
+div {
+  text-align: left;
+  margin: 2%;
+  margin-bottom: 8%;
+}
+
+ul {
+  margin-left: 4%;
+  margin-top: 0;
+}
+
+.logo {
+  float: left;
+}/*# sourceMappingURL=global.css.map */

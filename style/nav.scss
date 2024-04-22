@@ -1,0 +1,50 @@
+@import "promenne.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&display=swap');
+
+nav{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    ul li{
+        float: left;
+        position: relative;
+        background-color: $barva_nav;
+        width: 25%;
+    }
+    ul li a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: $pismo_nav;
+        padding: 5%;
+    }
+    ul li:hover{
+        background-color: darken($zvyrazneni, 10);
+        color: $pismo;
+    }
+    ul ul{
+        display: none;
+        position: absolute;
+        background-color: darken($barva_nav, 10);
+        width: 100%;
+    }
+    ul ul li{
+        float: none;
+        width: 100%;
+    }
+    ul li:hover > ul{
+        display: block;
+    }
+    ul ul li a{
+        text-decoration: none;
+        display: block;
+        padding: auto;
+    }
+    ul ul li a:hover{
+        background-color: darken($barva_nav, 10);
+    }
+}
